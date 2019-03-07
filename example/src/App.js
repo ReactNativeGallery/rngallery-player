@@ -1,13 +1,9 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'rngallery-player'
+import Player from 'rngallery-player'
 
 export default class App extends Component {
-  render () {
-    return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
-      </div>
-    )
+  render() {
+    return <Player gifId="DimwittedUnrealisticChrysalis" autoplay />
   }
 }
