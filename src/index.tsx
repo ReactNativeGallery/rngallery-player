@@ -54,8 +54,8 @@ export default class Gif extends React.Component<Props> {
   }
 
   onClick = () => {
-    const { username, slug } = this.props
-    window.location.href = `/${username}/${slug}`
+    // const { username, slug } = this.props
+    // window.location.href = `/${username}/${slug}`
   }
 
   pause = () => {
