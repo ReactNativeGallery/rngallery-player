@@ -7,21 +7,19 @@
 ## Install
 
 ```bash
-npm install --save rngallery-player
+yarn add rngallery-player
 ```
 
 ## Usage
 
 ```tsx
-import * as React from 'react'
+import React, { Component } from 'react'
 
-import MyComponent from 'rngallery-player'
+import Player from 'rngallery-player'
 
-class Example extends React.Component {
-  render () {
-    return (
-      <MyComponent />
-    )
+export default class App extends Component {
+  render() {
+    return <Player gifId="DimwittedUnrealisticChrysalis" autoplay />
   }
 }
 ```
