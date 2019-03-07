@@ -4,7 +4,7 @@
   "description": "video player for reactnative.gallery",
   "author": "xcarpentier",
   "license": "MIT",
-  "repository": "ReactNativeGallery/rngallery-player",
+  "repository": "https://github.com/ReactNativeGallery/rngallery-player",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
