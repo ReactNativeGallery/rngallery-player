@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://github.com/ReactNativeGallery/rngallery-player/raw/master/Screenshot%202019-03-28%20at%2009.39.59.png" width="200"/>
+</p>
+
+
 # rngallery-player
 
 > video player for reactnative.gallery
