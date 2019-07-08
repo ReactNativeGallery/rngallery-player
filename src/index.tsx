@@ -7,6 +7,7 @@ import { Source } from './Source'
 import { ButtonContainer, Button } from './Button'
 
 const BASE_SOURCE_GIF_GIANT = 'https://giant.gfycat.com/'
+const BASE_SOURCE_GIF_THUMBS = 'https://thumbs.gfycat.com/'
 
 export interface Props {
   gifId: string
@@ -93,7 +94,7 @@ export default class Gif extends React.Component<Props> {
             playsInline
             preload="none"
             muted
-            poster={`${process.env.BASE_SOURCE_GIF_THUMBS}${gifId}-poster.jpg`}
+            poster={`${BASE_SOURCE_GIF_THUMBS}${gifId}-poster.jpg`}
             style={{
               width: rotate ? 450 : '100%',
               height: rotate ? 250 : '100%',
